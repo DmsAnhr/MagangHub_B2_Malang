@@ -352,7 +352,7 @@ const VacanciesPage = () => {
         <p className="mb-0">
           Data lowongan diperoleh dari{" "}
           <a
-            href="https://maganghub.kemenaker.go.id"
+            href="https://maganghub.kemnaker.go.id"
             target="_blank"
             rel="noopener noreferrer"
             className="fw-semibold text-decoration-none text-primary"
