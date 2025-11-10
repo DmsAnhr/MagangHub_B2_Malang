@@ -51,10 +51,12 @@ const VacanciesPage = () => {
       }}
       className="pb-4"
     >
-      <h2 className="mb-2 text-center fw-bold">📋 Daftar Lowongan Maganghub#2 Malang-Batu</h2>
-      <h6 className="mb-4 text-center fw-normal">
-        Last Update Data: <strong>10/11/2025 16:20 WIB</strong>
-      </h6>
+      <div className="w-100 py-5">
+        <h2 className="mb-2 text-center fw-bold">📋 Daftar Lowongan <span className="text-primary">Maganghub#2</span> Malang-Batu</h2>
+        <h6 className="mb-4 text-center fw-normal">
+          Last Update Data: <strong>10/11/2025 16:20 WIB</strong>
+        </h6>
+      </div>
 
       {/* === INPUT SEARCH === */}
       <Container className="mb-4" style={{ maxWidth: "600px" }}>
