@@ -51,7 +51,7 @@ const VacanciesPage = () => {
       }}
       className="pb-4"
     >
-      <h2 className="mb-2 text-center fw-bold">📋 Daftar Lowongan MagangHub Malang-Batu</h2>
+      <h2 className="mb-2 text-center fw-bold">📋 Daftar Lowongan Maganghub#2 Malang-Batu</h2>
       <h6 className="mb-4 text-center fw-normal">
         Last Update Data: <strong>10/11/2025 16:20 WIB</strong>
       </h6>
@@ -80,7 +80,7 @@ const VacanciesPage = () => {
                 <Card
                   className="text-decoration-none shadow h-100 border-0 hover-info pointer"
                   onClick={() => handleShow(item)}
-                  style={{ cursor: "pointer" }}
+                  style={{ cursor: "pointer",borderRadius: "12px", }}
                 >
                   <Card.Img
                     variant="top"
@@ -89,6 +89,8 @@ const VacanciesPage = () => {
                       aspectRatio: "4/2",
                       width: "100%",
                       objectFit: "cover",
+                      borderRadius: "18px",
+                      padding:'8px'
                     }}
                   />
                   <Card.Body>
